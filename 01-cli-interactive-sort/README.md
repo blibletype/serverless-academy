@@ -4,12 +4,12 @@ The complete flow should look like this:
 
 1. Wait for user’s input
 2. Ask what the user would like to see in the output - what operation to do with words and numbers, namely:
-   - [ ] Sort words alphabetically
-   - [ ] Show numbers from lesser to greater
-   - [ ] Show numbers from bigger to smaller
-   - [ ] Display words in ascending order by number of letters in the word
-   - [ ] Show only unique words
-   - [ ] Display only unique values from the set of words and numbers entered by the user
-   - [ ] To exit the program, the user need to enter exit, otherwise the program will repeat itself again and again, asking for new data and suggesting sorting
+   - [x] Sort words alphabetically
+   - [x] Show numbers from lesser to greater
+   - [x] Show numbers from bigger to smaller
+   - [x] Display words in ascending order by number of letters in the word
+   - [x] Show only unique words
+   - [x] Display only unique values from the set of words and numbers entered by the user
+   - [x] To exit the program, the user need to enter exit, otherwise the program will repeat itself again and again, asking for new data and suggesting sorting
 
 **NOTE**: Please make sure you’re not using any external npm or yarn dependencies. You should only use NodeJS built-in modules. Also, the execution of your application takes place strictly in the console.
