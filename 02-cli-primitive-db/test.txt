@@ -1,9 +1,0 @@
-{"username":"maxyi","age":21}
-{"username":"maxyi","age":21}
-{"username":"maxyi","age":21}
-{"username":"maxyi","age":21}
-{"username":"maxym","age":21}
-{"username":"maxym","age":21}
-{"username":"maxym","age":21}
-{"username":"maxym","age":21}
-{"username":"maxym","age":21}
