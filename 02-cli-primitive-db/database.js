@@ -18,7 +18,7 @@ export const findAll = async () => {
 
     return users;
   } catch (error) {
-    console.log(error);
+    console.log('Database empty, please add some users first\n', error);
   }
 };
 
