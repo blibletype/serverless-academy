@@ -27,9 +27,6 @@ rl.on('close', () => {
   console.log('bye-bye');
 });
 
-// test string for you :D
-// 0 bar -9.99 juan foo -100 true Ivano-Vancouver foo 23 1.11 0 a .03
-
 (async function loop() {
   const data = await rl.question(welcomeMessage);
 
