@@ -22,7 +22,7 @@ const search = async () => {
 
   const data = await findAll();
 
-  console.log(data);
+  console.table(data);
 
   const search = await inquirer.prompt(questions.search);
 
