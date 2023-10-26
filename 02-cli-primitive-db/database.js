@@ -2,10 +2,6 @@ import { readFile, writeFile } from 'fs/promises';
 
 const FILE_PATH = 'test.txt';
 
-/**
- * Finds all users from the database.
- * @returns {Promise<Array>} An array of user objects.
- */
 export const findAll = async () => {
   try {
     const users = [];
@@ -22,11 +18,6 @@ export const findAll = async () => {
   }
 };
 
-/**
- * Writes data to a file in JSON format.
- * @param {Object} data - The data to be written to the file.
- * @returns {Promise<void>} - A Promise that resolves when the data has been written to the file.
- */
 export const create = async (data) => {
   try {
     await writeFile(FILE_PATH, JSON.stringify(data) + '\n', {
