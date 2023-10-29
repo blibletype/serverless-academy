@@ -6,6 +6,8 @@ const filesPaths = fs.readdirSync(dataPath);
 
 const map = new Map();
 
+console.time('Files proccessing');
+
 for (const filePath of filesPaths) {
   const data = fs
     .readFileSync(join(dataPath, filePath), { encoding: 'utf8' })
@@ -17,6 +19,8 @@ for (const filePath of filesPaths) {
     map.set(item, ++counter);
   }
 }
+
+console.timeEnd('Files proccessing');
 
 const uniqueValues = () => {
   return map.size;
