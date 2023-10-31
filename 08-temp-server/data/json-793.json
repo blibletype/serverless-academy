@@ -1,0 +1,74 @@
+{
+  "person": {
+    "name": "Alice",
+    "age": 28,
+    "address": {
+      "isDone": true,
+      "street": "123 Main St",
+      "city": "Randomville",
+      "zipcode": "98765"
+    },
+    "contact": {
+      "email": "alice@example.com",
+      "phone": "555-123-4567"
+    }
+  },
+  "order": {
+    "order_id": "ODR12345",
+    "date": "2023-10-31",
+    "items": [
+      {
+        "item_id": "ITM001",
+        "name": "Random Item 1",
+        "price": 19.99
+      },
+      {
+        "item_id": "ITM002",
+        "name": "Random Item 2",
+        "price": 12.5
+      }
+    ],
+    "total_amount": 32.49
+  },
+  "transaction": {
+    "transaction_id": "TXN6789",
+    "status": "completed",
+    "payment_method": "Credit Card",
+    "billing_info": {
+      "card_number": "**** **** **** 1234",
+      "expiration_date": "12/25",
+      "name_on_card": "Alice Doe"
+    }
+  },
+  "random_data": {
+    "key1": "value1",
+    "key2": 42,
+    "key3": true,
+    "key4": [1, 2, 3, 4, 5],
+    "key5": {
+      "subkey1": "subvalue1",
+      "subkey2": [6, 7, 8]
+    }
+  },
+  "nested_structure": {
+    "level1": {
+      "level2": {
+        "level3": {
+          "level4": {
+            "level5": {
+              "level6": {
+                "level7": {
+                  "level8": {
+                    "level9": {
+                      "level10": "This is the deepest level"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
