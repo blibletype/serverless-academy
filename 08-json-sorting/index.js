@@ -73,6 +73,6 @@ const fetchWithAttemps = async (url, n) => {
         : 'The endpoint is unavailable'
     );
   }
-  console.log('\nFound True values:', res.filter((val) => val).length);
-  console.log('Found False values:', res.filter((val) => !val).length);
+  console.log('\nFound True values:', res.filter((val) => val === true).length);
+  console.log('Found False values:', res.filter((val) => val === false).length);
 })();
